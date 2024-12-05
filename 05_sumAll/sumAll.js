@@ -10,7 +10,7 @@ const sumAll = function(start, end) {
     }
 
    
-        for(let i = first+1; i < last ;i++){
+        for(let i = first; i < last+1 ;i++){
             arrayAdd.push(i);
         }
         let sumNum = arrayAdd.reduce(
