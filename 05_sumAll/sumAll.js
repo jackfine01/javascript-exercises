@@ -1,6 +1,5 @@
 const sumAll = function(start, end) {
 
-    let sumNum = 0;
     let first = start;
     let last = end;
     let arrayAdd = [first, last];
@@ -14,7 +13,7 @@ const sumAll = function(start, end) {
         for(let i = first; i < last ;i++){
             arrayAdd.push(i);
         }
-        sumNum = numbers.reduce(
+        let sumNum = numbers.reduce(
             (accumulator, currentValue) => accumulator + currentValue, first);
         return sumNum;
     
