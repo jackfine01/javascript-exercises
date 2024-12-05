@@ -13,23 +13,24 @@ const sumAll = function(start, end) {
         last = start;
     }
 
-    // if(start.typeof != Number == true
-    //     || start < 0 == true
-    //     || startCheck == false){
-    //         return 'ERROR';
-    // }
-    // else if (end.typeof != Number == true
-    //             || end < 0 == true
-    //             || endCheck == false){
-    //         return 'ERROR';
-    // }
+    if(start.typeof != Number == true
+        || start < 0 == true
+        || startCheck == false){
+            return 'ERROR';
+    }
+    else if (end.typeof != Number == true
+                || end < 0 == true
+                || endCheck == false){
+            return 'ERROR';
+    }
 
-    // else{
+    else{
         for(let i = first; i < last ;i++){
             arrayAdd.push(i);
         }
-
-
+        const sum = numbers.reduce(
+            (accumulator, currentValue) => accumulator + currentValue, first);
+    }
         return arrayAdd;
     // }
 };
