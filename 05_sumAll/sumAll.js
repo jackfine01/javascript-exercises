@@ -17,17 +17,18 @@ const sumAll = function(start, end) {
         last += start;
     }
 
-    if(start.typeof != Number == true
-        || start < 0 == true
-        || startCheck == false){
-            return 'ERROR';
-    }
-    else if (end.typeof != Number == true
-                || end < 0 == true
-                || endCheck == false){
-            return 'ERROR';
-    }
-    else{
+    // if(start.typeof != Number == true
+    //     || start < 0 == true
+    //     || startCheck == false){
+    //         return 'ERROR';
+    // }
+    // else if (end.typeof != Number == true
+    //             || end < 0 == true
+    //             || endCheck == false){
+    //         return 'ERROR';
+    // }
+
+    // else{
         for(let i = first+1; i < last ;i++){
             arrayAdd.push(i);
         }
@@ -37,7 +38,7 @@ const sumAll = function(start, end) {
         );
 
         return sumNum;
-    }
+    // }
 };
 
 // Do not edit below this line
