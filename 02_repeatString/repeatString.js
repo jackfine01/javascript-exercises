@@ -7,8 +7,7 @@ const repeatString = function(string, num) {
         finalstring += string;
         return finalstring;
     };
-    finalstring = '';
 };
-
+finalstring = '';
 // Do not edit below this line
 module.exports = repeatString;
