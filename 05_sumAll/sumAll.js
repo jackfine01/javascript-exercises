@@ -13,13 +13,13 @@ const sumAll = function(start, end) {
         last = start;
     }
 
-    if(start.typeof != Number == true
-        || start < 0 == true
+    if(start.typeof != Number == false
+        || start < 0 == false
         || startCheck == false){
             return 'ERROR';
     }
-    else if (end.typeof != Number == true
-                || end < 0 == true
+    else if (end.typeof != Number == false
+                || end < 0 == false
                 || endCheck == false){
             return 'ERROR';
     }
@@ -30,9 +30,8 @@ const sumAll = function(start, end) {
         }
         const sum = numbers.reduce(
             (accumulator, currentValue) => accumulator + currentValue, first);
-    }
         return arrayAdd;
-    // }
+    }
 };
 
 // Do not edit below this line
