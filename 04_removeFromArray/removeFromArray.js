@@ -4,7 +4,7 @@ let filtered = parameterArray;
 
         for(let i = 0;i<theArgs.length;i++){
             for(let j = 0;j<parameterArray.length;j++){
-                if(theArgs[i]==parameterArray[j]){
+                if(theArgs[i]===parameterArray[j]){
                     parameterArray.splice(j,1);
                 };      
             };
