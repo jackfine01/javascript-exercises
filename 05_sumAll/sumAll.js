@@ -32,12 +32,9 @@ const sumAll = function(start, end) {
         for(let i = first+1; i < last ;i++){
             arrayAdd.push(i);
         }
-        sumNum += arrayAdd.reduce(
-            (accumulator, currentValue) => accumulator + currentValue,
-            initialValue,
-        );
 
-        return sumNum;
+
+        return arrayAdd;
     // }
 };
 
