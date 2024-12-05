@@ -13,7 +13,7 @@ const sumAll = function(start, end) {
         for(let i = first; i < last ;i++){
             arrayAdd.push(i);
         }
-        let sumNum = numbers.reduce(
+        let sumNum = arrayAdd.reduce(
             (accumulator, currentValue) => accumulator + currentValue, first);
         return sumNum;
     
