@@ -18,13 +18,11 @@ const sumAll = function(start, end) {
     }
 
     if(start.typeof != Number == true
-        || start.typeof != BigInt == true
         || start < 0 == true
         || startCheck == false){
             return 'ERROR';
     }
     else if (end.typeof != Number == true
-                || end.typeof != BigInt == true
                 || end < 0 == true
                 || endCheck == false){
             return 'ERROR';
