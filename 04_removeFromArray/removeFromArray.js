@@ -8,7 +8,7 @@ let filtered = parameterArray;
 
                 if(theArgs[i]==parameterArray[j]){
 
-                    filtered = parameterArray.filter(theArgs[i]); 
+                    filtered = parameterArray.filter(theArgs[j]); 
 
                 };      
             };
