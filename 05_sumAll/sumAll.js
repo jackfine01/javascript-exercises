@@ -29,7 +29,7 @@ const sumAll = function(start, end) {
     // }
 
     // else{
-        for(let i = first+1; i < last ;i++){
+        for(let i = first; i < last ;i++){
             arrayAdd.push(i);
         }
 
