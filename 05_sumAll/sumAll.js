@@ -26,6 +26,8 @@ const sumAll = function(start, end) {
         finalSum += sumArray[j];
     };
 
+    return finalSum;
+
 };
 
 // Do not edit below this line
