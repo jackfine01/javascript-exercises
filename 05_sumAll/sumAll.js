@@ -1,5 +1,16 @@
 const sumAll = function(start, end) {
     
+    if(start < 0 || end < 0){
+        return "ERROR";
+    };
+
+    let startInteger = Number.isInteger(start);
+    let endInteger = Number.isInteger(end);
+
+    if(startInteger === false || endInteger === false){
+        return "ERROR";
+    };
+
     let firstNum = start;
     let lastNum = end;
 
