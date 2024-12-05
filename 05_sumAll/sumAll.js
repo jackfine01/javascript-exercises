@@ -4,8 +4,8 @@ const sumAll = function(start, end) {
     let endCheck = end % 1 === 0;
 
     let sumNum = 0;
-    let first;
-    let last;
+    let first = 0;
+    let last = 0;
     let arrayAdd = [first, last];
 
     if(start>end){
