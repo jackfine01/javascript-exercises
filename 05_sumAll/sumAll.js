@@ -9,12 +9,12 @@ const sumAll = function(start, end) {
     let arrayAdd = [first, last];
 
     if(start>end){
-        first == start;
-        last == end;
+        first === start;
+        last === end;
     }
     else{
-        first == end;
-        last == start;
+        first === end;
+        last === start;
     }
 
     // if(start.typeof != Number == true
