@@ -1,7 +1,7 @@
 const sumAll = function(start, end) {
     
     let firstNum = start;
-    let lastNum = last;
+    let lastNum = end;
 
     if(start>end){
         firstNum = end;
