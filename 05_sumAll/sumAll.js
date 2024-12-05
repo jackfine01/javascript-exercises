@@ -17,15 +17,15 @@ const sumAll = function(start, end) {
         last += start;
     }
 
-    if(start.typeof != Number 
-        || start.typeof != BigInt 
-        || start < 0 
+    if(start.typeof != Number == true
+        || start.typeof != BigInt == true
+        || start < 0 == true
         || startCheck == false){
             return 'ERROR';
     }
-    else if (end.typeof != Number 
-                || end.typeof != BigInt 
-                || end < 0
+    else if (end.typeof != Number == true
+                || end.typeof != BigInt == true
+                || end < 0 == true
                 || endCheck == false){
             return 'ERROR';
     }
