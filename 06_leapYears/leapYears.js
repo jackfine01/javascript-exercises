@@ -1,34 +1,13 @@
 const leapYears = function(year) {
 
-    let isCent = false;
-    if(year % 100 === 0){
-        isCent = true;
-    }
+    let isCent = year % 100 === 0;
 
-    let isFourCent = false;
-    if(year % 400 === 0){
-        isFourCent = true;
-    };
 
-    let isFour = false;
-    if(year % 4 === 0){
-        isFour = true;
-    };
+    let isFourCent = year % 400 === 0;
 
-    for(let i = 0;i<3;i++){
-        let truthIndex = 0;
-        if(isFour = true){
-            truthIndex++;
-        };
-        if(isCent = false){
-            truthIndex++;
-        };
-        if(isFourCent = true){
-            truthIndex++;
-        };
-    };
+    let isFour = year % 4 === 0;
 
-    if(truthIndex = 3){
+    if(isFour && (!isCent || isFourCent)){
         return true;
     }
     else
