@@ -4,7 +4,7 @@ function roundedtenth(num){
 
 const convertToCelsius = function(temp) {
   let celsius = (5/9)*(temp-32);
-  celcius = Math.round(celsius * 10) / 10;
+  celsius = Math.round(celsius * 10) / 10;
   return celsius;
 };
 
