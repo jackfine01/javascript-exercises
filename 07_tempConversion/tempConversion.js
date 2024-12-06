@@ -4,7 +4,8 @@ function roundedtenth(num){
 
 const convertToCelsius = function(temp) {
   let celsius = (5/9)*(temp-32);
-  return roundedtenth(celsius);
+  celcius = Math.round(celsius * 10) / 10;
+  return celsius;
 };
 
 const convertToFahrenheit = function(temp) {
