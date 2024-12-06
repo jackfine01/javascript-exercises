@@ -14,11 +14,25 @@ const leapYears = function(year) {
     if(year % 4 === 0){
         isFour = true;
     };
-    let final = false;
-    if(isFour === true && isCent === false && isFourCent === true) {
-        final = true;
+
+    for(let i = 0;i<3;i++){
+        let truthIndex = 0;
+        if(isFour = true){
+            truthIndex++;
+        };
+        if(isCent = false){
+            truthIndex++;
+        };
+        if(isFourCent = true){
+            truthIndex++;
+        };
+    };
+
+    if(truthIndex = 3){
+        return true;
     }
-    return final;
+    else
+        return false;
 };
 
 // Do not edit below this line
