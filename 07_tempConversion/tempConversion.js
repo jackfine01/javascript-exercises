@@ -3,13 +3,13 @@ function roundedtenth(num){
 };
 
 const convertToCelsius = function(temp) {
-
-  return roundedtenth(temp);
+  let celsius = (5/9)*(temp-32);
+  return roundedtenth(celsius);
 };
 
 const convertToFahrenheit = function(temp) {
-  
-  return roundedtenth(temp);
+  let fahrenheit = (temp*(9/5)+32);
+  return roundedtenth(fahrenheit);
 };
 
 // Do not edit below this line
